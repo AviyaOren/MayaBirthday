@@ -1,0 +1,77 @@
+{
+  "_from": "scratchcard",
+  "_id": "scratchcard@0.5.6",
+  "_inBundle": false,
+  "_integrity": "sha1-zHCpYWRlN/O7NZNBQmNARGpOO1I=",
+  "_location": "/scratchcard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "scratchcard",
+    "name": "scratchcard",
+    "escapedName": "scratchcard",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/scratchcard/-/scratchcard-0.5.6.tgz",
+  "_shasum": "cc70a961646537f3bb359341426340446a4e3b52",
+  "_spec": "scratchcard",
+  "_where": "/Users/aviya.oren/Desktop/Maya",
+  "author": {
+    "name": "Cédric Connes",
+    "email": "cedric.connes@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/connesc/scratchcard/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Unitag",
+      "url": "http://www.unitag.io"
+    }
+  ],
+  "dependencies": {
+    "animation-frame": "^0.3.0",
+    "lodash.defaults": "^4.1.0"
+  },
+  "deprecated": false,
+  "description": "Mimic a scratchcard with HTML5",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "del": "^2.2.1",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "homepage": "https://github.com/connesc/scratchcard#readme",
+  "keywords": [
+    "scratchcard",
+    "scratch",
+    "card"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "scratchcard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connesc/scratchcard.git"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "start": "node server.js"
+  },
+  "version": "0.5.6"
+}
